@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.0.15">
+  <diagram name="DearTime Clean ERD" id="0">
+    <mxGraphModel dx="954" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="users" value="Users" style="shape=swimlane;childLayout=stackLayout;" parent="1" vertex="1">
+          <mxGeometry x="60" y="60" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="memory" value="User_Memory" style="shape=swimlane;childLayout=stackLayout;" parent="1" vertex="1">
+          <mxGeometry x="340" y="60" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="calendar" value="Memory_Calendar_Events" style="shape=swimlane;childLayout=stackLayout;" parent="1" vertex="1">
+          <mxGeometry x="640" y="60" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wish" value="Wish_Jar" style="shape=swimlane;childLayout=stackLayout;" parent="1" vertex="1">
+          <mxGeometry x="60" y="320" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="milestone" value="Milestones" style="shape=swimlane;childLayout=stackLayout;" parent="1" vertex="1">
+          <mxGeometry x="340" y="320" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="moodboard" value="Mood_Board" style="shape=swimlane;childLayout=stackLayout;" parent="1" vertex="1">
+          <mxGeometry x="640" y="320" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mooditems" value="MoodBoard_Items" style="shape=swimlane;childLayout=stackLayout;" parent="1" vertex="1">
+          <mxGeometry x="880" y="320" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Joy Jar = Memories where is_joy = true" style="shape=note;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="10" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kckSmDLWEM6xQoW7y3ZS-1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="memory" target="users" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kckSmDLWEM6xQoW7y3ZS-4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="wish" target="users" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kckSmDLWEM6xQoW7y3ZS-7" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" parent="1" source="mooditems" target="moodboard" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
